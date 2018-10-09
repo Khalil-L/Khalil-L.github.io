@@ -1,83 +1,31 @@
 <!DOCTYPE html>
-<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<!-- gamer time -->
 <html lang="en-us">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <head>
-	<h1> Press the button</h1>
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th>This is a table row / </th>
-      <th>This is another table row</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="2"></td>
-      <td rowspan="3"></td>
-    </tr>
-    <tr>
-     <th>Row 1</th>
-    </tr>
-    <tr>
-      <th>Row 2</th>
-    </tr>
-  </tbody>
-</table>
-	
-<meta charset="utf-8">
-<title>Hello...</title>
-<style type="text/css">
-#mainContent {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: xx-large;
-	font-weight: bold;
-	background-color: #0000FF;
-	border-radius: 40px;
-	padding: 10px;
-	text-align: center;
-}
-.buttonStyle {
-	border-radius: 10px;
-	border: thin solid #FF0000;
-	padding: 10px;
-	background-color: #FF0000;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	font-weight: bold;
-	color: #663300;
-	width: 75px;
-}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
 
-.buttonStyle:hover {
-	border: thin solid #FFCC00;
-	background-color: #FCF9D6;
-	color: #996633;
-	cursor: pointer;
-}
-.buttonStyle:active {
-	border: thin solid #FF0000;
-	background-color: #FF0000;
-	color: #FF0000;
-	cursor: pointer;
-}
-</style>
-</head>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-<div id="mainContent">
-<p id="helloText">?</p>
-<button id="clickButton" class="buttonStyle">Press this button</button>
-</div>
-<script> 
-var myButton = document.getElementById("clickButton");
-var myText = document.getElementById("helloText");
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
 
-myButton.addEventListener('click', doSomething, false)
-
-function doSomething() {
-	myText.textContent = "hello, world!";
-}
-</script>
-
-</body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
