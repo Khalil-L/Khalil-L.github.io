@@ -5,9 +5,13 @@
 .h1 {
     font-family: sans-serif;
     color: red;
-    font-size: 60;
+    font-size: 40;
+}
+
+.bird1 {
+  padding-left: 3000px;
 }
 .container {
-  color: red;
-  padding-left: 300px;
+padding-left: 300px;  
 }
+
