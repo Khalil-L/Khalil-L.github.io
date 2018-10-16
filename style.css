@@ -1,6 +1,3 @@
-.div {
-  padding-left: 200px
-}
 
 .h1 {
     font-family: sans-serif;
@@ -8,10 +5,25 @@
     font-size: 40;
 }
 
-.bird1 {
-  padding-left: 3000px;
-}
 .container {
-padding-left: 300px;  
+color: blue;
+font-size: 300;
 }
 
+.bird1 {
+width: 50%;
+height: 50%;
+padding:20%;
+}
+
+.bird2 {
+width: 50000px;
+height: 50000px;
+padding:20px;
+}
+
+.bird3 {
+width: 50000px;
+height: 50000px;
+padding:20px;
+}
