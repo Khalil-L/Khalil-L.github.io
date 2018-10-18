@@ -11,26 +11,24 @@ font-size: 300;
 }
 
 .bird1 {
-width: 550px;
-height: 500px;
-padding-left: 200px;
+width: 600px;
+height: 450px;
 position: static;
-margin-top: 10px;
+margin: 25px;
 }
-
 .bird2 {
-width: 550px;
-height: 500px;
-padding-left: 200px;
+width: 600px;
+height: 400px;
+padding-left: 55%;
 position: static;
-10px
+margin:25px;
 }
 
 .bird3 {
 width: 400;
 height: 500px;
-padding-left: 75%;
-padding-top: 100px;
+padding-left: 63%;
+padding-top: 25px;
 position: static;
-10px
+margin-right: 25px;
 }
