@@ -4,7 +4,6 @@
     color: red;
     font-size: 40;
 }
-
 .container {
 color: blue;
 font-size: 300;
@@ -12,20 +11,18 @@ font-size: 300;
 
 .muhleman {
 width: 400px;
-height: 300px;
-position: static
+height: 400px;
 }
 .GN {
 width:400px;
-height: 300px;
-position: static;
+height: 400px;
 }
 
-.bird3 {
-width: 400;
+.derek {
+width: 300px;
 height: 500px;
-padding-left: 1000px;
-padding-bottom: 300px;
+transform: rotate(270deg);
+right: 50px;
 }
 
 .AMP {
