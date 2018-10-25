@@ -19,7 +19,7 @@ left: 35px;
 width:400px;
 height: 400px;
 position: fixed;
-left:37%;
+left:37%;                               
 }
 
 .derek {
@@ -30,8 +30,15 @@ position: fixed;
 left: 1450px;
 }
 
-.T1 {
- left: 75%;
+.GN2 {
+    height: 400px;
+    width: 400px;
+    position: fixed;
+    top: 500px;
+}
+
+.AMP {
+    top: 500px;
 }
 
 .buttons {
