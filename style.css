@@ -34,13 +34,25 @@ left: 1450px;
     height: 400px;
     width: 400px;
     position: fixed;
-    top: 500px;
+    top: 300px;
 }
 
 .AMP {
-    top: 500px;
+    top: 300px;
 }
 
 .buttons {
 padding-left: 1400px;
+}
+
+.button1 {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.app {
+    float:center;
 }
