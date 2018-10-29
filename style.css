@@ -54,5 +54,19 @@ padding-left: 1400px;
   font-size: 20px;
 }
 .app {
-    float:center;
+    left: 50%;
+}
+
+.contact {
+    
+}
+
+.app2 {
+    color: red;
+    font-family: sans-serf, arial;
+}
+
+.calculator.apk {
+ right: 75%;
+ top: 75%;
 }
